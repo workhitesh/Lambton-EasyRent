@@ -78,6 +78,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67E60A9D28F5D4C100CB09C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67E60A9E28F5D4C900CB09C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67F8148E28F39682000DC499 /* Main.storyboard */,
+				67F8149628F39685000DC499 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67E60A9F28F5D4D000CB09C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67E60AA028F5D4D600CB09C6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		67E60AA128F5D4DB00CB09C6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		67E60AA228F5D4DF00CB09C6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				67F8148828F39682000DC499 /* AppDelegate.swift */,
+				67F8148A28F39682000DC499 /* SceneDelegate.swift */,
+				67F8149928F39685000DC499 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		67E60AA328F5D4F700CB09C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67F8149428F39685000DC499 /* Assets.xcassets */,
+				67F8149128F39682000DC499 /* EasyRent.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		67F8147C28F39681000DC499 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +157,14 @@
 		67F8148728F39682000DC499 /* EasyRent */ = {
 			isa = PBXGroup;
 			children = (
-				67F8148828F39682000DC499 /* AppDelegate.swift */,
-				67F8148A28F39682000DC499 /* SceneDelegate.swift */,
+				67E60AA328F5D4F700CB09C6 /* Resources */,
+				67E60AA228F5D4DF00CB09C6 /* Supporting */,
+				67E60AA128F5D4DB00CB09C6 /* Misc */,
+				67E60AA028F5D4D600CB09C6 /* Helper */,
+				67E60A9D28F5D4C100CB09C6 /* Model */,
+				67E60A9E28F5D4C900CB09C6 /* View */,
+				67E60A9F28F5D4D000CB09C6 /* Controller */,
 				67F8148C28F39682000DC499 /* ViewController.swift */,
-				67F8148E28F39682000DC499 /* Main.storyboard */,
-				67F8149428F39685000DC499 /* Assets.xcassets */,
-				67F8149628F39685000DC499 /* LaunchScreen.storyboard */,
-				67F8149928F39685000DC499 /* Info.plist */,
-				67F8149128F39682000DC499 /* EasyRent.xcdatamodeld */,
 			);
 			path = EasyRent;
 			sourceTree = "<group>";
@@ -445,7 +501,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QLTPQPMC3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EasyRent/Info.plist;
+				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,7 +529,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QLTPQPMC3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EasyRent/Info.plist;
+				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
