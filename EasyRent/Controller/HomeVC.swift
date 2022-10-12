@@ -23,12 +23,17 @@ class HomeVC: UIViewController {
     
     //MARK: Fxns
     fileprivate func setupUI(){
+        // adding a target to textfield to trigger everytime something is changed in it
         tfSearch.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }
     
+    // invoked everytime something changes in the search field
     @objc func textFieldDidChange(_ textfield:UITextField) {
         let isPostalCodeValid = Utility.isPostalCodeValid((textfield.text ?? "").replacingOccurrences(of: " ", with: ""))
-        btnSearch.isHidden = !isPostalCodeValid
+        btnSearch.isHidden = !isPostalCodeValid // if postal code is valid show search button
+        if isPostalCodeValid {
+            view.endEditing(true)
+        }
     }
     
     
@@ -36,6 +41,14 @@ class HomeVC: UIViewController {
     @IBAction func searchPressed(_ sender: UIButton) {
         
     }
+    
+    @IBAction func menuTogglePressed(_ sender: UIBarButtonItem) {
+        guard let navVC = self.navigationController else {
+            return
+        }
+        Navigation.instance.setupHomeScreen(navVC: navVC)
+    }
+    
     
 
 }

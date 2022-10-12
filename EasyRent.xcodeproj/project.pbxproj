@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789D28F76D92008EC972 /* SideMenuVC.swift */; };
+		67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789F28F76E8B008EC972 /* Navigation.swift */; };
+		67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE78A128F76F90008EC972 /* EasyRentEnums.swift */; };
+		67BE78A528F77530008EC972 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 67BE78A428F77530008EC972 /* SideMenu */; };
 		67D8F7F928F73CC60021D0C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F7F828F73CC60021D0C0 /* HomeVC.swift */; };
 		67D8F7FD28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FB28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf */; };
 		67D8F7FE28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FC28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf */; };
@@ -62,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67BE789D28F76D92008EC972 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		67BE789F28F76E8B008EC972 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		67BE78A128F76F90008EC972 /* EasyRentEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentEnums.swift; sourceTree = "<group>"; };
 		67D8F7F828F73CC60021D0C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		67D8F7FB28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		67D8F7FC28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -108,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BE78A528F77530008EC972 /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				67D8F7F828F73CC60021D0C0 /* HomeVC.swift */,
+				67BE789D28F76D92008EC972 /* SideMenuVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +195,8 @@
 				67D8F82528F74A940021D0C0 /* Utility.swift */,
 				67D8F82728F74B8C0021D0C0 /* Configuration.swift */,
 				67D8F82928F758040021D0C0 /* Extension+String.swift */,
+				67BE789F28F76E8B008EC972 /* Navigation.swift */,
+				67BE78A128F76F90008EC972 /* EasyRentEnums.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -285,6 +296,9 @@
 			dependencies = (
 			);
 			name = EasyRent;
+			packageProductDependencies = (
+				67BE78A428F77530008EC972 /* SideMenu */,
+			);
 			productName = EasyRent;
 			productReference = 67F8148528F39682000DC499 /* EasyRent.app */;
 			productType = "com.apple.product-type.application";
@@ -357,6 +371,9 @@
 				Base,
 			);
 			mainGroup = 67F8147C28F39681000DC499;
+			packageReferences = (
+				67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -423,7 +440,10 @@
 				67D8F82628F74A940021D0C0 /* Utility.swift in Sources */,
 				67F8149328F39682000DC499 /* EasyRent.xcdatamodeld in Sources */,
 				67D8F7F928F73CC60021D0C0 /* HomeVC.swift in Sources */,
+				67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */,
 				67F8148D28F39682000DC499 /* ViewController.swift in Sources */,
+				67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */,
+				67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */,
 				67D8F82428F743BC0021D0C0 /* Design.swift in Sources */,
 				67D8F82A28F758040021D0C0 /* Extension+String.swift in Sources */,
 				67F8148928F39682000DC499 /* AppDelegate.swift in Sources */,
@@ -615,6 +635,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,6 +664,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -772,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67BE78A428F77530008EC972 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		67F8149128F39682000DC499 /* EasyRent.xcdatamodeld */ = {
