@@ -22,5 +22,12 @@ class SideMenuVC: UIViewController {
     //MARK: Fxns
 
     //MARK: IBActions
-
+    @IBAction func profilePressed(_ sender: UIButton) {
+        Navigation.instance.push(to: .ProfileVC, from: self)
+    }
+    
+    @IBAction func paymentPressed(_ sender: UIButton) {
+        Navigation.instance.push(to: .PaymentInfoVC, from: self)
+    }
+    
 }

@@ -12,5 +12,5 @@ enum UserDefaultKeys:String {
 }
 
 enum Controllers : String {
-    case HomeVC, SideMenuVC
+    case HomeVC, SideMenuVC, ProfileVC, PaymentInfoVC
 }

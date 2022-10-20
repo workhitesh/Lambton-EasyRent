@@ -49,4 +49,13 @@ class Navigation:NSObject {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: name.rawValue)
         return vc
     }
+    
+    func pop(vc:UIViewController){
+        vc.navigationController?.popViewController(animated: true)
+    }
+    
+    func push(to vc:Controllers, from:UIViewController){
+        let vcToPush = grabController(name: vc)
+        from.navigationController?.pushViewController(vcToPush, animated: true)
+    }
 }

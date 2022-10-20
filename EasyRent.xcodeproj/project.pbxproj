@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674BD8892900943700A26502 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD8882900943700A26502 /* ProfileVC.swift */; };
+		674BD88B2900DD3300A26502 /* PaymentInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */; };
 		67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789D28F76D92008EC972 /* SideMenuVC.swift */; };
 		67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789F28F76E8B008EC972 /* Navigation.swift */; };
 		67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE78A128F76F90008EC972 /* EasyRentEnums.swift */; };
@@ -66,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674BD8882900943700A26502 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoVC.swift; sourceTree = "<group>"; };
 		67BE789D28F76D92008EC972 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		67BE789F28F76E8B008EC972 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		67BE78A128F76F90008EC972 /* EasyRentEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentEnums.swift; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 			children = (
 				67D8F7F828F73CC60021D0C0 /* HomeVC.swift */,
 				67BE789D28F76D92008EC972 /* SideMenuVC.swift */,
+				674BD8882900943700A26502 /* ProfileVC.swift */,
+				674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 			mainGroup = 67F8147C28F39681000DC499;
 			packageReferences = (
 				67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				674BD8872900941100A26502 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
@@ -445,8 +452,10 @@
 				67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */,
 				67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */,
 				67D8F82428F743BC0021D0C0 /* Design.swift in Sources */,
+				674BD8892900943700A26502 /* ProfileVC.swift in Sources */,
 				67D8F82A28F758040021D0C0 /* Extension+String.swift in Sources */,
 				67F8148928F39682000DC499 /* AppDelegate.swift in Sources */,
+				674BD88B2900DD3300A26502 /* PaymentInfoVC.swift in Sources */,
 				67D8F82828F74B8C0021D0C0 /* Configuration.swift in Sources */,
 				67F8148B28F39682000DC499 /* SceneDelegate.swift in Sources */,
 			);
@@ -796,6 +805,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		674BD8872900941100A26502 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
