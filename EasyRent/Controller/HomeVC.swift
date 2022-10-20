@@ -12,6 +12,7 @@ class HomeVC: UIViewController {
     
     //MARK: IBOutlets
     @IBOutlet weak var tfSearch: UITextField!
+    @IBOutlet weak var leftBarButton: UIBarButtonItem!
     @IBOutlet weak var btnSearch: DesignableButton!
     
     //MARK: View Life Cycles
@@ -19,6 +20,11 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
         setupUI()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isNavigationBarHidden = false
     }
     
     //MARK: Fxns

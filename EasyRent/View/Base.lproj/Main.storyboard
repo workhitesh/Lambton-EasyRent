@@ -151,6 +151,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="btnSearch" destination="DsZ-nt-2YQ" id="KMP-LV-gSQ"/>
+                        <outlet property="leftBarButton" destination="8pr-95-A2g" id="RHz-v8-giR"/>
                         <outlet property="tfSearch" destination="XGJ-Ut-zym" id="i02-Am-L6e"/>
                     </connections>
                 </viewController>
@@ -646,6 +647,9 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="8yg-7p-9md">
+            <size key="intrinsicContentSize" width="512" height="512"/>
+        </designable>
         <designable name="DsZ-nt-2YQ">
             <size key="intrinsicContentSize" width="77.333333333333329" height="34.333333333333336"/>
         </designable>

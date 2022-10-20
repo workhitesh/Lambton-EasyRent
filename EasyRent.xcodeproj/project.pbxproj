@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6715007629017AD7005014C9 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 6715007529017AD7005014C9 /* SideMenu */; };
 		674BD8892900943700A26502 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD8882900943700A26502 /* ProfileVC.swift */; };
 		674BD88B2900DD3300A26502 /* PaymentInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */; };
 		67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789D28F76D92008EC972 /* SideMenuVC.swift */; };
 		67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789F28F76E8B008EC972 /* Navigation.swift */; };
 		67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE78A128F76F90008EC972 /* EasyRentEnums.swift */; };
-		67BE78A528F77530008EC972 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 67BE78A428F77530008EC972 /* SideMenu */; };
 		67D8F7F928F73CC60021D0C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F7F828F73CC60021D0C0 /* HomeVC.swift */; };
 		67D8F7FD28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FB28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf */; };
 		67D8F7FE28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FC28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf */; };
@@ -119,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BE78A528F77530008EC972 /* SideMenu in Frameworks */,
+				6715007629017AD7005014C9 /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			);
 			name = EasyRent;
 			packageProductDependencies = (
-				67BE78A428F77530008EC972 /* SideMenu */,
+				6715007529017AD7005014C9 /* SideMenu */,
 			);
 			productName = EasyRent;
 			productReference = 67F8148528F39682000DC499 /* EasyRent.app */;
@@ -378,8 +378,7 @@
 			);
 			mainGroup = 67F8147C28F39681000DC499;
 			packageReferences = (
-				67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */,
-				674BD8872900941100A26502 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */,
 			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
@@ -805,28 +804,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		674BD8872900941100A26502 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+		6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		67BE78A428F77530008EC972 /* SideMenu */ = {
+		6715007529017AD7005014C9 /* SideMenu */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 67BE78A328F77530008EC972 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			package = 6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */;
 			productName = SideMenu;
 		};
 /* End XCSwiftPackageProductDependency section */

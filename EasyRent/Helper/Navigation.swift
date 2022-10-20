@@ -41,6 +41,7 @@ class Navigation:NSObject {
 
         // (Optional) Prevent status bar area from turning black when menu appears:
         leftMenuNavigationController.statusBarEndAlpha = 0
+//        navVC.isNavigationBarHidden = false
         navVC.present(leftMenuNavigationController, animated: true)
         
     }
