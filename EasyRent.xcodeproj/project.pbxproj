@@ -51,6 +51,8 @@
 		675B3B0E2909FDB60021ADB0 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B3AF72909FDB50021ADB0 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
 		675B3B102909FE000021ADB0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B3B0F2909FE000021ADB0 /* UserModel.swift */; };
 		67746439290A02DA007B1A6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67746438290A02DA007B1A6E /* GoogleService-Info.plist */; };
+		67A4D7CE290ADD7800895A8D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 67A4D7CD290ADD7800895A8D /* SDWebImage */; };
+		67A4D7D0290ADDAB00895A8D /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4D7CF290ADDAB00895A8D /* Extension+UIImageView.swift */; };
 		67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789D28F76D92008EC972 /* SideMenuVC.swift */; };
 		67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789F28F76E8B008EC972 /* Navigation.swift */; };
 		67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE78A128F76F90008EC972 /* EasyRentEnums.swift */; };
@@ -139,6 +141,7 @@
 		675B3AF72909FDB50021ADB0 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
 		675B3B0F2909FE000021ADB0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		67746438290A02DA007B1A6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67A4D7CF290ADDAB00895A8D /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
 		67BE789D28F76D92008EC972 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		67BE789F28F76E8B008EC972 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		67BE78A128F76F90008EC972 /* EasyRentEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentEnums.swift; sourceTree = "<group>"; };
@@ -190,6 +193,7 @@
 			files = (
 				675B3AD52909FC950021ADB0 /* Alamofire in Frameworks */,
 				675B3AC62909FC690021ADB0 /* FirebaseDatabaseSwift in Frameworks */,
+				67A4D7CE290ADD7800895A8D /* SDWebImage in Frameworks */,
 				675B3ABE2909FC690021ADB0 /* FirebaseAppCheck in Frameworks */,
 				675B3AC02909FC690021ADB0 /* FirebaseAuth in Frameworks */,
 				675B3ACA2909FC690021ADB0 /* FirebaseFirestore in Frameworks */,
@@ -360,6 +364,7 @@
 				67D8F82928F758040021D0C0 /* Extension+String.swift */,
 				67BE789F28F76E8B008EC972 /* Navigation.swift */,
 				67BE78A128F76F90008EC972 /* EasyRentEnums.swift */,
+				67A4D7CF290ADDAB00895A8D /* Extension+UIImageView.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -477,6 +482,7 @@
 				675B3ACF2909FC690021ADB0 /* FirebaseMessaging */,
 				675B3AD12909FC690021ADB0 /* FirebaseStorage */,
 				675B3AD42909FC950021ADB0 /* Alamofire */,
+				67A4D7CD290ADD7800895A8D /* SDWebImage */,
 			);
 			productName = EasyRent;
 			productReference = 67F8148528F39682000DC499 /* EasyRent.app */;
@@ -554,6 +560,7 @@
 				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */,
 				675B3AB82909FC690021ADB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
@@ -645,6 +652,7 @@
 				675B3AFB2909FDB60021ADB0 /* IQTitleBarButtonItem.swift in Sources */,
 				675B3B082909FDB60021ADB0 /* IQKeyboardManager+Toolbar.swift in Sources */,
 				675B3AFE2909FDB60021ADB0 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				67A4D7D0290ADDAB00895A8D /* Extension+UIImageView.swift in Sources */,
 				675B3B002909FDB60021ADB0 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
 				67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */,
 				675B3B0E2909FDB60021ADB0 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
@@ -1032,6 +1040,14 @@
 				kind = branch;
 			};
 		};
+		67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1109,6 +1125,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		67A4D7CD290ADD7800895A8D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 

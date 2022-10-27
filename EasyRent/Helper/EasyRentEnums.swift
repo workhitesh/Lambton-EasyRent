@@ -25,4 +25,7 @@ enum Messages : String {
 enum ApiEndpoints : String {
     case createUser = "users/create"
     case getAllUsers = "users"
+    case addCreditCard = "credit/create"
+    case getCardById = "credit/getAll/"
+    case getUserById = "users/"
 }

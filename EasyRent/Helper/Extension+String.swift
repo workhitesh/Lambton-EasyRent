@@ -58,4 +58,9 @@ extension String {
         let predicateTest = NSPredicate(format: "SELF MATCHES %@", "^(([^ ]?)(^[a-zA-Z].*[a-zA-Z]$)([^ ]?))$")
         return predicateTest.evaluate(with: self)
     }
+    
+    var isValidCreditCard:Bool {
+        guard self.count == 16, self.isOnlyNumbers else { return false }
+        return true
+    }
 }

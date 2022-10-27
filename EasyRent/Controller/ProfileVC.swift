@@ -29,6 +29,28 @@ class ProfileVC: UIViewController {
     fileprivate func setupUI(){
         // hide default top navigation bar
         navigationController?.isNavigationBarHidden = true
+        getMyInfo()
+    }
+    
+    fileprivate func getMyInfo(){
+        guard let myUserId = Utility.getUD(.userId) as? String else {
+            return
+        }
+        Webservices.instance.get(url: API_BASE_URL+ApiEndpoints.getUserById.rawValue+myUserId, params: nil) { success, response, error in
+            if success {
+                if let dict = response as? NSDictionary {
+                    if let profilePic = dict["profilePic"] as? String, let fName = dict["firstName"] as? String, let lName = dict["lastName"] as? String {
+                        self.tfFirstName.text = fName
+                        self.tfLastName.text = lName
+                        self.imgUser.loadImageWithIndicator(profilePic, placeholder: nil)
+                    }
+                } else {
+//                    Utility.showAlert(with: .commonError, on: self)
+                }
+            } else {
+//                Utility.showAlert(with: .commonError, on: self)
+            }
+        }
     }
     
     fileprivate func getAllUsersAndSaveMyData(_ fName:String,lastName:String){
