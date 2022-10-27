@@ -19,3 +19,7 @@ func print(_ items: Any..., separator: String = " ", terminator: String = "\n") 
     //Swift.print("Release mode")
     #endif
 }
+
+let APP_NAME = "Easy Rent"
+
+let API_BASE_URL = "http://54.188.15.181/"

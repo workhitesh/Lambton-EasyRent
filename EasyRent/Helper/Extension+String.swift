@@ -52,4 +52,10 @@ extension String {
             return true
         }
     }
+    
+    var isValidName:Bool {
+        guard self.count > 3, self.count < 18 else { return false }
+        let predicateTest = NSPredicate(format: "SELF MATCHES %@", "^(([^ ]?)(^[a-zA-Z].*[a-zA-Z]$)([^ ]?))$")
+        return predicateTest.evaluate(with: self)
+    }
 }

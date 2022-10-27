@@ -43,25 +43,36 @@ final class Utility {
         return base
     }
     
-    /*
-    class func showAlert(with message:String, on controller:UIViewController) {
-        let alertVC = UIAlertController(title: Messages.APPNAME, message: message, preferredStyle: .alert)
+    class func showAlert(with message:Messages, on controller:UIViewController) {
+        let alertVC = UIAlertController(title: APP_NAME, message: message.rawValue, preferredStyle: .alert)
         let ok = UIAlertAction(title: "Okay", style: .default, handler: nil)
         alertVC.addAction(ok)
         controller.present(alertVC, animated: true, completion: nil)
     }
-    */
     
-    class func showLoader(){
-//        SVProgressHUD.show()
+    class func showLoader(on:UIViewController){
+        let loader = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        loader.frame.origin.x = on.view.center.x - 20
+        loader.frame.origin.y = on.view.center.y - 20
+        loader.style = .large
+        loader.color = .black
+        loader.tag = 999
+        loader.hidesWhenStopped = true
+        on.view.addSubview(loader)
+        loader.startAnimating()
     }
     
-    class func hideLoader(){
-//        SVProgressHUD.dismiss()
+    class func hideLoader(from:UIViewController){
+        for case let loader as UIActivityIndicatorView in from.view.subviews {
+            if loader.tag == 999 {
+                loader.stopAnimating()
+                loader.removeFromSuperview()
+            }
+        }
     }
     
-    class func saveUD(_ value:Any?, key:String) {
-        UserDefaults.standard.set(value, forKey: key)
+    class func saveUD(_ value:Any?, key:UserDefaultKeys) {
+        UserDefaults.standard.set(value, forKey: key.rawValue)
         UserDefaults.standard.synchronize()
     }
     
