@@ -12,7 +12,7 @@ enum UserDefaultKeys:String {
 }
 
 enum Controllers : String {
-    case HomeVC, SideMenuVC, ProfileVC, PaymentInfoVC
+    case HomeVC, SideMenuVC, ProfileVC, PaymentInfoVC, RideSearchVC
 }
 
 enum Messages : String {
@@ -28,4 +28,15 @@ enum ApiEndpoints : String {
     case addCreditCard = "credit/create"
     case getCardById = "credit/getAll/"
     case getUserById = "users/"
+}
+
+enum CarType : Int {
+    case sedan = 0
+    case luxurySedan = 1
+    case suv = 2
+}
+
+extension UIImage {
+    static let radioSelected = UIImage(named: "radio-selected")!
+    static let radioUnselected = UIImage(named: "radio-unselected")!
 }

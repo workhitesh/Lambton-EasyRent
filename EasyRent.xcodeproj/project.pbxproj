@@ -56,6 +56,7 @@
 		67BE789E28F76D92008EC972 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789D28F76D92008EC972 /* SideMenuVC.swift */; };
 		67BE78A028F76E8B008EC972 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE789F28F76E8B008EC972 /* Navigation.swift */; };
 		67BE78A228F76F90008EC972 /* EasyRentEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE78A128F76F90008EC972 /* EasyRentEnums.swift */; };
+		67D3E6A6291187F50062D4E7 /* RideSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D3E6A5291187F50062D4E7 /* RideSearchVC.swift */; };
 		67D8F7F928F73CC60021D0C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F7F828F73CC60021D0C0 /* HomeVC.swift */; };
 		67D8F7FD28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FB28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf */; };
 		67D8F7FE28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F7FC28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf */; };
@@ -145,6 +146,7 @@
 		67BE789D28F76D92008EC972 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		67BE789F28F76E8B008EC972 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		67BE78A128F76F90008EC972 /* EasyRentEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentEnums.swift; sourceTree = "<group>"; };
+		67D3E6A5291187F50062D4E7 /* RideSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideSearchVC.swift; sourceTree = "<group>"; };
 		67D8F7F828F73CC60021D0C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		67D8F7FB28F741510021D0C0 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		67D8F7FC28F741510021D0C0 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 				67BE789D28F76D92008EC972 /* SideMenuVC.swift */,
 				674BD8882900943700A26502 /* ProfileVC.swift */,
 				674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */,
+				67D3E6A5291187F50062D4E7 /* RideSearchVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				675B3B072909FDB60021ADB0 /* IQKeyboardManager+OrientationNotification.swift in Sources */,
 				675B3B102909FE000021ADB0 /* UserModel.swift in Sources */,
 				675B3AFF2909FDB60021ADB0 /* IQInvocation.swift in Sources */,
+				67D3E6A6291187F50062D4E7 /* RideSearchVC.swift in Sources */,
 				675B3AFC2909FDB60021ADB0 /* IQBarButtonItem.swift in Sources */,
 				675B3B0A2909FDB60021ADB0 /* IQUIViewController+Additions.swift in Sources */,
 				675B3B012909FDB60021ADB0 /* IQKeyboardManagerConstantsInternal.swift in Sources */,

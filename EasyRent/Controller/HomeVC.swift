@@ -45,7 +45,8 @@ class HomeVC: UIViewController {
     
     //MARK: IBActions
     @IBAction func searchPressed(_ sender: UIButton) {
-        
+        // go to ride search screen
+        Navigation.instance.push(to: .RideSearchVC, from: self)
     }
     
     @IBAction func menuTogglePressed(_ sender: UIBarButtonItem) {
