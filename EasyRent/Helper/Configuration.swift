@@ -23,3 +23,5 @@ func print(_ items: Any..., separator: String = " ", terminator: String = "\n") 
 let APP_NAME = "Easy Rent"
 
 let API_BASE_URL = "http://54.188.15.181/"
+
+let GOOGLE_API_KEY = "AIzaSyARgExsO5g_lL9yBWzEDSt398djzyn30N4"

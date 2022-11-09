@@ -8,6 +8,7 @@
 import UIKit
 import CoreData
 import Firebase
+import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         FirebaseApp.configure()
+        GMSPlacesClient.provideAPIKey(GOOGLE_API_KEY)
+        let locationManager = CLLocationManager()
+        locationManager.requestWhenInUseAuthorization()
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
         Thread.sleep(forTimeInterval: 1) // just to hold splash screen

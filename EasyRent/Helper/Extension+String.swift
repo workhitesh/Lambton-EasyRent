@@ -63,4 +63,11 @@ extension String {
         guard self.count == 16, self.isOnlyNumbers else { return false }
         return true
     }
+    
+    var intValue:     Int?        { return NumberFormatter().number(from: self)?.intValue    }
+    var floatValue:   Float?      { return NumberFormatter().number(from: self)?.floatValue  }
+    var doubleValue:  Double?     { return NumberFormatter().number(from: self)?.doubleValue }
+    var boolValue:    Bool?       { return NumberFormatter().number(from: self)?.boolValue   }
+    var decimalValue: Decimal?    { return NumberFormatter().number(from: self)?.decimalValue}
+    var binaryValue:  Data?       { return self.data(using: .utf8)                           }
 }

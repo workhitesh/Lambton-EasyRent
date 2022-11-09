@@ -94,6 +94,7 @@
 		67F814A328F39685000DC499 /* EasyRentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814A228F39685000DC499 /* EasyRentTests.swift */; };
 		67F814AD28F39685000DC499 /* EasyRentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814AC28F39685000DC499 /* EasyRentUITests.swift */; };
 		67F814AF28F39685000DC499 /* EasyRentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814AE28F39685000DC499 /* EasyRentUITestsLaunchTests.swift */; };
+		67FC5668291C2F94005C5F88 /* Extension+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC5667291C2F94005C5F88 /* Extension+Number.swift */; };
 		B5EE3131CB5EB4B31EBE67B3 /* Pods_EasyRent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85CA53FE8948557E57C51B /* Pods_EasyRent.framework */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +191,7 @@
 		67F814A828F39685000DC499 /* EasyRentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F814AC28F39685000DC499 /* EasyRentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentUITests.swift; sourceTree = "<group>"; };
 		67F814AE28F39685000DC499 /* EasyRentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67FC5667291C2F94005C5F88 /* Extension+Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Number.swift"; sourceTree = "<group>"; };
 		91B5397CEB2ACC62A8C08475 /* Pods_EasyRent_EasyRentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRent_EasyRentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C9F6836F14F0152850D75 /* Pods-EasyRent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent.debug.xcconfig"; path = "Target Support Files/Pods-EasyRent/Pods-EasyRent.debug.xcconfig"; sourceTree = "<group>"; };
 		9E6C476F40D5997A0BF5F869 /* Pods-EasyRent-EasyRentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent-EasyRentUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 				67BE789F28F76E8B008EC972 /* Navigation.swift */,
 				67BE78A128F76F90008EC972 /* EasyRentEnums.swift */,
 				67A4D7CF290ADDAB00895A8D /* Extension+UIImageView.swift */,
+				67FC5667291C2F94005C5F88 /* Extension+Number.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -490,7 +493,6 @@
 				FF13CF93A985646B8E763A33 /* Pods-EasyRentTests.debug.xcconfig */,
 				DD0D4690CC4754E7D266D527 /* Pods-EasyRentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -606,10 +608,10 @@
 			);
 			mainGroup = 67F8147C28F39681000DC499;
 			packageReferences = (
-				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */,
+				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */,
 				675B3AB82909FC690021ADB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */,
+				675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
@@ -786,6 +788,7 @@
 				675B3AF82909FDB60021ADB0 /* IQTextView.swift in Sources */,
 				675B3B042909FDB60021ADB0 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				675B3AFA2909FDB60021ADB0 /* IQPreviousNextView.swift in Sources */,
+				67FC5668291C2F94005C5F88 /* Extension+Number.swift in Sources */,
 				675B3B052909FDB60021ADB0 /* IQKeyboardManager.swift in Sources */,
 				67F8149328F39682000DC499 /* EasyRent.xcdatamodeld in Sources */,
 				67D8F7F928F73CC60021D0C0 /* HomeVC.swift in Sources */,
@@ -1003,6 +1006,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allowing permission to take photos you can add a profile picture";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get your location so we can get you an affordable ride";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1034,6 +1038,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allowing permission to take photos you can add a profile picture";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get your location so we can get you an affordable ride";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1175,7 +1180,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */ = {
+		6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
 			requirement = {
@@ -1191,7 +1196,7 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1199,7 +1204,7 @@
 				kind = branch;
 			};
 		};
-		67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */ = {
+		67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -1212,7 +1217,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		6715007529017AD7005014C9 /* SideMenu */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */;
+			package = 6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */;
 			productName = SideMenu;
 		};
 		675B3AB92909FC690021ADB0 /* FirebaseAnalytics */ = {
@@ -1282,12 +1287,12 @@
 		};
 		675B3AD42909FC950021ADB0 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		67A4D7CD290ADD7800895A8D /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */;
+			package = 67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
