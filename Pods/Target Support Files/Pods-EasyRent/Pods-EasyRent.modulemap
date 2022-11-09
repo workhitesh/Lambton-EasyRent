@@ -1,0 +1,6 @@
+framework module Pods_EasyRent {
+  umbrella header "Pods-EasyRent-umbrella.h"
+
+  export *
+  module * { export * }
+}

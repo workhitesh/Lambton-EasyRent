@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39A1376CCB6B5CDD6861533B /* Pods_EasyRent_EasyRentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5397CEB2ACC62A8C08475 /* Pods_EasyRent_EasyRentUITests.framework */; };
+		628F204FDE97BBB6A53DA001 /* Pods_EasyRentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EBBE1A116A83E42AFF0EAF /* Pods_EasyRentTests.framework */; };
 		6715007629017AD7005014C9 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 6715007529017AD7005014C9 /* SideMenu */; };
 		674BD8892900943700A26502 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD8882900943700A26502 /* ProfileVC.swift */; };
 		674BD88B2900DD3300A26502 /* PaymentInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */; };
@@ -92,6 +94,7 @@
 		67F814A328F39685000DC499 /* EasyRentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814A228F39685000DC499 /* EasyRentTests.swift */; };
 		67F814AD28F39685000DC499 /* EasyRentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814AC28F39685000DC499 /* EasyRentUITests.swift */; };
 		67F814AF28F39685000DC499 /* EasyRentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F814AE28F39685000DC499 /* EasyRentUITestsLaunchTests.swift */; };
+		B5EE3131CB5EB4B31EBE67B3 /* Pods_EasyRent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85CA53FE8948557E57C51B /* Pods_EasyRent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +145,7 @@
 		675B3AF72909FDB50021ADB0 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
 		675B3B0F2909FE000021ADB0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		67746438290A02DA007B1A6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67891F51FAD54A2B47C3A90A /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent-EasyRentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67A4D7CF290ADDAB00895A8D /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
 		67BE789D28F76D92008EC972 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		67BE789F28F76E8B008EC972 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
@@ -186,6 +190,14 @@
 		67F814A828F39685000DC499 /* EasyRentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F814AC28F39685000DC499 /* EasyRentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentUITests.swift; sourceTree = "<group>"; };
 		67F814AE28F39685000DC499 /* EasyRentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91B5397CEB2ACC62A8C08475 /* Pods_EasyRent_EasyRentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRent_EasyRentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C9F6836F14F0152850D75 /* Pods-EasyRent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent.debug.xcconfig"; path = "Target Support Files/Pods-EasyRent/Pods-EasyRent.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6C476F40D5997A0BF5F869 /* Pods-EasyRent-EasyRentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent-EasyRentUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6EBBE1A116A83E42AFF0EAF /* Pods_EasyRentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9978D4B0DB8B4D698736CF3 /* Pods-EasyRent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRent.release.xcconfig"; path = "Target Support Files/Pods-EasyRent/Pods-EasyRent.release.xcconfig"; sourceTree = "<group>"; };
+		DD0D4690CC4754E7D266D527 /* Pods-EasyRentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRentTests.release.xcconfig"; path = "Target Support Files/Pods-EasyRentTests/Pods-EasyRentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE85CA53FE8948557E57C51B /* Pods_EasyRent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF13CF93A985646B8E763A33 /* Pods-EasyRentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRentTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyRentTests/Pods-EasyRentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +221,7 @@
 				675B3AD22909FC690021ADB0 /* FirebaseStorage in Frameworks */,
 				6715007629017AD7005014C9 /* SideMenu in Frameworks */,
 				675B3ACE2909FC690021ADB0 /* FirebaseFirestoreSwift in Frameworks */,
+				B5EE3131CB5EB4B31EBE67B3 /* Pods_EasyRent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628F204FDE97BBB6A53DA001 /* Pods_EasyRentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A1376CCB6B5CDD6861533B /* Pods_EasyRent_EasyRentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +422,8 @@
 				67F814A128F39685000DC499 /* EasyRentTests */,
 				67F814AB28F39685000DC499 /* EasyRentUITests */,
 				67F8148628F39682000DC499 /* Products */,
+				F7598E4EC02BFE8FC938F2FB /* Pods */,
+				8BC175CC74A94A5FB4DBA660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -453,6 +470,30 @@
 			path = EasyRentUITests;
 			sourceTree = "<group>";
 		};
+		8BC175CC74A94A5FB4DBA660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE85CA53FE8948557E57C51B /* Pods_EasyRent.framework */,
+				91B5397CEB2ACC62A8C08475 /* Pods_EasyRent_EasyRentUITests.framework */,
+				B6EBBE1A116A83E42AFF0EAF /* Pods_EasyRentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7598E4EC02BFE8FC938F2FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				938C9F6836F14F0152850D75 /* Pods-EasyRent.debug.xcconfig */,
+				C9978D4B0DB8B4D698736CF3 /* Pods-EasyRent.release.xcconfig */,
+				67891F51FAD54A2B47C3A90A /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */,
+				9E6C476F40D5997A0BF5F869 /* Pods-EasyRent-EasyRentUITests.release.xcconfig */,
+				FF13CF93A985646B8E763A33 /* Pods-EasyRentTests.debug.xcconfig */,
+				DD0D4690CC4754E7D266D527 /* Pods-EasyRentTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -460,9 +501,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F814B228F39685000DC499 /* Build configuration list for PBXNativeTarget "EasyRent" */;
 			buildPhases = (
+				A769237011297D22A233879B /* [CP] Check Pods Manifest.lock */,
 				67F8148128F39681000DC499 /* Sources */,
 				67F8148228F39681000DC499 /* Frameworks */,
 				67F8148328F39681000DC499 /* Resources */,
+				8B5F00E90C41E9C9FA75E6F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,6 +538,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F814B528F39685000DC499 /* Build configuration list for PBXNativeTarget "EasyRentTests" */;
 			buildPhases = (
+				ABB43AFF7147F7785CF8DF59 /* [CP] Check Pods Manifest.lock */,
 				67F8149A28F39685000DC499 /* Sources */,
 				67F8149B28F39685000DC499 /* Frameworks */,
 				67F8149C28F39685000DC499 /* Resources */,
@@ -513,9 +557,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F814B828F39685000DC499 /* Build configuration list for PBXNativeTarget "EasyRentUITests" */;
 			buildPhases = (
+				32020A1B4FD983DC852537E9 /* [CP] Check Pods Manifest.lock */,
 				67F814A428F39685000DC499 /* Sources */,
 				67F814A528F39685000DC499 /* Frameworks */,
 				67F814A628F39685000DC499 /* Resources */,
+				7C1AD5F0B7043CB24EE8A1BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -560,10 +606,10 @@
 			);
 			mainGroup = 67F8147C28F39681000DC499;
 			packageReferences = (
-				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */,
 				675B3AB82909FC690021ADB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */,
 			);
 			productRefGroup = 67F8148628F39682000DC499 /* Products */;
 			projectDirPath = "";
@@ -623,6 +669,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32020A1B4FD983DC852537E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRent-EasyRentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1AD5F0B7043CB24EE8A1BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5F00E90C41E9C9FA75E6F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyRent/Pods-EasyRent-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyRent/Pods-EasyRent-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyRent/Pods-EasyRent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A769237011297D22A233879B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB43AFF7147F7785CF8DF59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67F8148128F39681000DC499 /* Sources */ = {
@@ -844,6 +993,7 @@
 		};
 		67F814B328F39685000DC499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938C9F6836F14F0152850D75 /* Pods-EasyRent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -874,6 +1024,7 @@
 		};
 		67F814B428F39685000DC499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9978D4B0DB8B4D698736CF3 /* Pods-EasyRent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -904,6 +1055,7 @@
 		};
 		67F814B628F39685000DC499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF13CF93A985646B8E763A33 /* Pods-EasyRentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -924,6 +1076,7 @@
 		};
 		67F814B728F39685000DC499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0D4690CC4754E7D266D527 /* Pods-EasyRentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -944,6 +1097,7 @@
 		};
 		67F814B928F39685000DC499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67891F51FAD54A2B47C3A90A /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -962,6 +1116,7 @@
 		};
 		67F814BA28F39685000DC499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6C476F40D5997A0BF5F869 /* Pods-EasyRent-EasyRentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1020,7 +1175,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+		6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
 			requirement = {
@@ -1036,7 +1191,7 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1044,7 +1199,7 @@
 				kind = branch;
 			};
 		};
-		67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -1057,7 +1212,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		6715007529017AD7005014C9 /* SideMenu */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			package = 6715007429017AD7005014C9 /* XCRemoteSwiftPackageReference "SideMenu.git" */;
 			productName = SideMenu;
 		};
 		675B3AB92909FC690021ADB0 /* FirebaseAnalytics */ = {
@@ -1127,12 +1282,12 @@
 		};
 		675B3AD42909FC950021ADB0 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 675B3AD32909FC950021ADB0 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 		67A4D7CD290ADD7800895A8D /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = 67A4D7CC290ADD7800895A8D /* XCRemoteSwiftPackageReference "SDWebImage.git" */;
 			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
