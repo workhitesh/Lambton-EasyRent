@@ -765,7 +765,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hwY-ec-hyW">
-                                                <rect key="frame" x="152.33333333333334" y="28" width="39.333333333333343" height="34"/>
+                                                <rect key="frame" x="152.33333333333334" y="28" width="38.333333333333343" height="34"/>
                                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -1030,6 +1030,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ag-15-vTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="47.692307692307693" y="1376.3033175355449"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="dsm-80-PLB">
+            <objects>
+                <viewController storyboardIdentifier="MapVC" id="XhU-gq-N4q" customClass="MapVC" customModule="EasyRent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JOs-sG-2g5">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YkY-iK-w3W"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CAt-pe-iMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742" y="1376"/>
         </scene>
     </scenes>
     <designables>

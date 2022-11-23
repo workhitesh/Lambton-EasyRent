@@ -16,41 +16,64 @@
 			);
 			name = GooglePlaces;
 		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E9EE8FA6EB953FC51BB721C9EBCB65F /* Pods-EasyRent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F396B631F9B1CB6CA41191798A513 /* Pods-EasyRent-dummy.m */; };
-		442596C0058DB16BB3C8ACC93296459C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43CD1660049BF0B122135D8DBE65DC54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58F3815C5A6C8D8C0032B048D2F4A838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5CC2AC657518271780B7894DCB6FF111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5EDA0CA5179BB072199B12FDE6BBF84C /* Pods-EasyRentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23014AC4141343BB8872ABA4E37B3306 /* Pods-EasyRentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FAADF725E401EBD233E30C21F5C7E9F /* Pods-EasyRent-EasyRentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092517CE6ACE3B654CC7A26EFEE258BA /* Pods-EasyRent-EasyRentUITests-dummy.m */; };
+		7517E74246C3B7F822FF04A9DE437889 /* Pods-EasyRent-EasyRentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D188F36E2B30C444A5C3EEC7DE7A6BAB /* Pods-EasyRent-EasyRentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B445E0A1D2D048500B6A18A2E6CE740 /* Pods-EasyRent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F936B7A03E9B518D80BD9F0144F31FE /* Pods-EasyRent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1475FFFDCDFEE6055F8E16832895650 /* Pods-EasyRentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAD3A6F2A6AB6FB4101616C5DB8AAA /* Pods-EasyRentTests-dummy.m */; };
-		D74BF0A2551647C7C02F357FF0A7A395 /* Pods-EasyRent-EasyRentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D188F36E2B30C444A5C3EEC7DE7A6BAB /* Pods-EasyRent-EasyRentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5C41D078F39F3CB1CD77402D06B613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DF6E6D0677AFC5EF6C77B98FF285F3FB /* Pods-EasyRent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F936B7A03E9B518D80BD9F0144F31FE /* Pods-EasyRent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7B06AE2F4CB26A03035E04F18AB109 /* Pods-EasyRent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F396B631F9B1CB6CA41191798A513 /* Pods-EasyRent-dummy.m */; };
+		FC96B87D570CA292F95AF7ECEF54B53E /* Pods-EasyRent-EasyRentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092517CE6ACE3B654CC7A26EFEE258BA /* Pods-EasyRent-EasyRentUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		44770B6B85CB8E0A2901BB4D7AC8B8DE /* PBXContainerItemProxy */ = {
+		221FF8E3CEE6A37BA2CBF4E438936935 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
 			remoteInfo = GooglePlaces;
 		};
-		7B9BA3632F6BFFD57813EC6E5E52E676 /* PBXContainerItemProxy */ = {
+		652692BCB01A90FF4CF9A587EFE024A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
-			remoteInfo = GooglePlaces;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
 		};
-		81AA07709D5F4B91CF238A40EBAFA45C /* PBXContainerItemProxy */ = {
+		7DF4D4DDEE20B5F5F907AA6FE5D13698 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 739E0AF15708013F8ECC2016019B370A;
 			remoteInfo = "Pods-EasyRent";
+		};
+		94D5080F75DFC2B49A279F988A1655A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		E3EFE1D377A9FAB0125EA8EEFE7F1EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,6 +82,7 @@
 		092517CE6ACE3B654CC7A26EFEE258BA /* Pods-EasyRent-EasyRentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyRent-EasyRentUITests-dummy.m"; sourceTree = "<group>"; };
 		1F8FAEE3D20D3B2DFEDB193A2FDECAEC /* Pods-EasyRent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyRent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23014AC4141343BB8872ABA4E37B3306 /* Pods-EasyRentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyRentTests-umbrella.h"; sourceTree = "<group>"; };
+		23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		27F52B8263079FBE73B28E3206DF33C4 /* Pods-EasyRent-EasyRentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyRent-EasyRentUITests.modulemap"; sourceTree = "<group>"; };
 		2A3DECC52BCD24563AD6164D2E933F3C /* Pods-EasyRent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRent.release.xcconfig"; sourceTree = "<group>"; };
 		3608AF9A75C707E817BCA7DF4CB36D5B /* Pods-EasyRent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyRent-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -67,37 +91,50 @@
 		44E65E72FB2925127DD6DC42E9FECC7A /* Pods-EasyRent-EasyRentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyRent-EasyRentUITests-resources.sh"; sourceTree = "<group>"; };
 		47A481C1CE263D7772D6CF00D7652113 /* Pods-EasyRentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyRentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A0D03657AD4908EF647E4CEFB5BFC96 /* Pods-EasyRent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyRent-Info.plist"; sourceTree = "<group>"; };
+		4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		530EE49BAB4D3D09B8F2F085B7C3A2F5 /* Pods-EasyRent-EasyRentUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyRent-EasyRentUITests"; path = Pods_EasyRent_EasyRentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82416363BCDF0F14DCF58136FE452224 /* Pods-EasyRent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyRent.modulemap"; sourceTree = "<group>"; };
+		8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		89D1B085B37B3218784FAD66D88455EC /* Pods-EasyRent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRent.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		990F396B631F9B1CB6CA41191798A513 /* Pods-EasyRent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyRent-dummy.m"; sourceTree = "<group>"; };
 		9BB230F66FD3318DBB8B6885E7B1229C /* Pods-EasyRent-EasyRentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRent-EasyRentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
 		A0B70EB30839CB99C69186578C09982F /* Pods-EasyRent-EasyRentUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyRent-EasyRentUITests-Info.plist"; sourceTree = "<group>"; };
-		AA5F71CE3D2C61BFB499EE0EBBE3E8C5 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
 		AD2570A33F915BC1135C3EEF9C2A15C5 /* Pods-EasyRent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyRent"; path = Pods_EasyRent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B163972BA9154DB6503A224EA6C63DF4 /* Pods-EasyRentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyRentTests-Info.plist"; sourceTree = "<group>"; };
 		C1933983D7826B6A7F78A9AE10D8D962 /* Pods-EasyRentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRentTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAB0F01CCD5896DBFCA0B64F53365150 /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRent-EasyRentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D188F36E2B30C444A5C3EEC7DE7A6BAB /* Pods-EasyRent-EasyRentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyRent-EasyRentUITests-umbrella.h"; sourceTree = "<group>"; };
-		DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
 		E0431495D6CCF44EF7E65288D455BB38 /* Pods-EasyRentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyRentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		E8DAD3A6F2A6AB6FB4101616C5DB8AAA /* Pods-EasyRentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyRentTests-dummy.m"; sourceTree = "<group>"; };
-		EA7141AB1B0B302CB330802CB47F581F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		ECDE3BA1B79B32790B47EE4D0E63D25C /* Pods-EasyRent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyRent-resources.sh"; sourceTree = "<group>"; };
 		ED7AFEE74BCA2FC6B3550B34F04716A6 /* Pods-EasyRentTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EasyRentTests"; path = Pods_EasyRentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4922FEB71FC1D05AC3DAE9CAC357161 /* Pods-EasyRent-EasyRentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyRent-EasyRentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F87B540CF68019178EB0E436E165DE0C /* Pods-EasyRentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyRentTests.modulemap"; sourceTree = "<group>"; };
+		F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43B27B44546781626230244580611620 /* Frameworks */ = {
+		161D6C35FA68A2E798CF9A08C1E311C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5C41D078F39F3CB1CD77402D06B613 /* Foundation.framework in Frameworks */,
+				58F3815C5A6C8D8C0032B048D2F4A838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3662201483C2481A0410132C3DE72688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD1660049BF0B122135D8DBE65DC54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,17 +146,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60E5B3962F93E127FE1BAF5D150FB0E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				442596C0058DB16BB3C8ACC93296459C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0883B537F1FDF67277437486C4066E63 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E86A34344FF943F078B6064D778D230A /* Base */,
+				A38D68C78C032F2CEEEEED36818D37F0 /* Maps */,
+				6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
 		1656F23C615372841790EEFB63CB2AB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,12 +178,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */,
+				A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		3FE4CC4B7B0241873FFF96886667937D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				3FE4CC4B7B0241873FFF96886667937D /* Frameworks */,
+				7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */,
+				3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */,
+				9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
 			sourceTree = "<group>";
 		};
 		71F6670750DE43A6D5F4FC2D3F21E289 /* Pods-EasyRentTests */ = {
@@ -154,22 +241,21 @@
 			path = "Target Support Files/Pods-EasyRentTests";
 			sourceTree = "<group>";
 		};
-		857D09760EFF43711EF51D50FDC01736 /* Support Files */ = {
+		7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */,
-				DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */,
+				4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GooglePlaces";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		86495445BDEF960EE33346A57A5D3AAD /* Pods */ = {
+		A38D68C78C032F2CEEEEED36818D37F0 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				F26E9E4627C6B12CDB5293A55674851F /* GooglePlaces */,
+				E435AD63DBCE250679648002DC9F8442 /* Frameworks */,
+				FAF4CAFF608973234241B6D824C4FC0F /* Resources */,
 			);
-			name = Pods;
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		AA5CD687AAE546E822A76099605BDE0D /* Targets Support Files */ = {
@@ -199,20 +285,12 @@
 			path = "Target Support Files/Pods-EasyRent-EasyRentUITests";
 			sourceTree = "<group>";
 		};
-		C8F8453F21266F8283B862F965FD7E13 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AA5F71CE3D2C61BFB499EE0EBBE3E8C5 /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				86495445BDEF960EE33346A57A5D3AAD /* Pods */,
+				E858A99A3564099E88E4CF05F26A517D /* Pods */,
 				1656F23C615372841790EEFB63CB2AB2 /* Products */,
 				AA5CD687AAE546E822A76099605BDE0D /* Targets Support Files */,
 			);
@@ -243,33 +321,56 @@
 			path = "Target Support Files/Pods-EasyRent";
 			sourceTree = "<group>";
 		};
-		D78998B9511E8E6F03EDD52AADE14E2B /* Frameworks */ = {
+		E435AD63DBCE250679648002DC9F8442 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA7141AB1B0B302CB330802CB47F581F /* GooglePlaces.framework */,
+				F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */,
+				23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F26E9E4627C6B12CDB5293A55674851F /* GooglePlaces */ = {
+		E858A99A3564099E88E4CF05F26A517D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D78998B9511E8E6F03EDD52AADE14E2B /* Frameworks */,
-				C8F8453F21266F8283B862F965FD7E13 /* Resources */,
-				857D09760EFF43711EF51D50FDC01736 /* Support Files */,
+				0883B537F1FDF67277437486C4066E63 /* GoogleMaps */,
+				446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */,
 			);
-			name = GooglePlaces;
-			path = GooglePlaces;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E86A34344FF943F078B6064D778D230A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FAF4CAFF608973234241B6D824C4FC0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F4EB5DB0E22D10F94AA143ED0CFBFD6 /* Headers */ = {
+		36D2138616E74661B8F97346D44DAD7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6E6D0677AFC5EF6C77B98FF285F3FB /* Pods-EasyRent-umbrella.h in Headers */,
+				9B445E0A1D2D048500B6A18A2E6CE740 /* Pods-EasyRent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECAFEBE0FDE5EED2859DA0C74804BD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7517E74246C3B7F822FF04A9DE437889 /* Pods-EasyRent-EasyRentUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,30 +382,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A903F90E98AB1192ED0471732F47D828 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D74BF0A2551647C7C02F357FF0A7A395 /* Pods-EasyRent-EasyRentUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		739E0AF15708013F8ECC2016019B370A /* Pods-EasyRent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 280EEAC204F69F76C6C8877ED043422F /* Build configuration list for PBXNativeTarget "Pods-EasyRent" */;
+			buildConfigurationList = 85CFACE368BA69FAFD0C8AC9B971A0F8 /* Build configuration list for PBXNativeTarget "Pods-EasyRent" */;
 			buildPhases = (
-				2F4EB5DB0E22D10F94AA143ED0CFBFD6 /* Headers */,
-				9204C77E240A48ABBA14F0C2FB8A72EB /* Sources */,
-				43B27B44546781626230244580611620 /* Frameworks */,
-				AACA7B1FE101FD9239325F110D5E4A65 /* Resources */,
+				36D2138616E74661B8F97346D44DAD7F /* Headers */,
+				7D05BCC9EB530AC730BC96641A08BB24 /* Sources */,
+				161D6C35FA68A2E798CF9A08C1E311C4 /* Frameworks */,
+				B9E887A5B34B50C70E590C004B043BC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4CF82502072CB646C873FCBB695B0689 /* PBXTargetDependency */,
+				8E3BF0DF785ACCAF1384EE77E201EA96 /* PBXTargetDependency */,
+				E29FE251257EBD1F64C24161141F678F /* PBXTargetDependency */,
 			);
 			name = "Pods-EasyRent";
 			productName = Pods_EasyRent;
@@ -323,7 +417,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				97933191489056355F840EE483B9DFF8 /* PBXTargetDependency */,
+				AF73495CD36464045AE8A9E8F3DF471B /* PBXTargetDependency */,
 			);
 			name = "Pods-EasyRentTests";
 			productName = Pods_EasyRentTests;
@@ -332,17 +426,18 @@
 		};
 		E0981A404F626645AFBE3DE555898626 /* Pods-EasyRent-EasyRentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0207C784524E88F105206700E7AAE884 /* Build configuration list for PBXNativeTarget "Pods-EasyRent-EasyRentUITests" */;
+			buildConfigurationList = 11452A832D3413F6AACDEA6A04097B3F /* Build configuration list for PBXNativeTarget "Pods-EasyRent-EasyRentUITests" */;
 			buildPhases = (
-				A903F90E98AB1192ED0471732F47D828 /* Headers */,
-				AF2EABF7CDF41D4D09CE6A435C0D56E6 /* Sources */,
-				60E5B3962F93E127FE1BAF5D150FB0E8 /* Frameworks */,
-				8720B63A6E1C6F9ACA0CC4C64948ACDF /* Resources */,
+				4ECAFEBE0FDE5EED2859DA0C74804BD3 /* Headers */,
+				F5729985A44AA6CE872BA895B4EE84BD /* Sources */,
+				3662201483C2481A0410132C3DE72688 /* Frameworks */,
+				78D266839CC176BBCDA3B8BE5F37EF94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				25D7DCD9AE39BA48C385913BEA025579 /* PBXTargetDependency */,
+				32FC8BECB69AAA9C58FA116D7370665C /* PBXTargetDependency */,
+				9D1CA76EC7EF4FCF525F59B5D3E2DBD5 /* PBXTargetDependency */,
 			);
 			name = "Pods-EasyRent-EasyRentUITests";
 			productName = Pods_EasyRent_EasyRentUITests;
@@ -371,6 +466,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
 				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
 				739E0AF15708013F8ECC2016019B370A /* Pods-EasyRent */,
 				E0981A404F626645AFBE3DE555898626 /* Pods-EasyRent-EasyRentUITests */,
@@ -387,14 +483,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8720B63A6E1C6F9ACA0CC4C64948ACDF /* Resources */ = {
+		78D266839CC176BBCDA3B8BE5F37EF94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AACA7B1FE101FD9239325F110D5E4A65 /* Resources */ = {
+		B9E887A5B34B50C70E590C004B043BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,49 +508,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9204C77E240A48ABBA14F0C2FB8A72EB /* Sources */ = {
+		7D05BCC9EB530AC730BC96641A08BB24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E9EE8FA6EB953FC51BB721C9EBCB65F /* Pods-EasyRent-dummy.m in Sources */,
+				CC7B06AE2F4CB26A03035E04F18AB109 /* Pods-EasyRent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF2EABF7CDF41D4D09CE6A435C0D56E6 /* Sources */ = {
+		F5729985A44AA6CE872BA895B4EE84BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAADF725E401EBD233E30C21F5C7E9F /* Pods-EasyRent-EasyRentUITests-dummy.m in Sources */,
+				FC96B87D570CA292F95AF7ECEF54B53E /* Pods-EasyRent-EasyRentUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25D7DCD9AE39BA48C385913BEA025579 /* PBXTargetDependency */ = {
+		32FC8BECB69AAA9C58FA116D7370665C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 652692BCB01A90FF4CF9A587EFE024A2 /* PBXContainerItemProxy */;
+		};
+		8E3BF0DF785ACCAF1384EE77E201EA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = E3EFE1D377A9FAB0125EA8EEFE7F1EAD /* PBXContainerItemProxy */;
+		};
+		9D1CA76EC7EF4FCF525F59B5D3E2DBD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 44770B6B85CB8E0A2901BB4D7AC8B8DE /* PBXContainerItemProxy */;
+			targetProxy = 221FF8E3CEE6A37BA2CBF4E438936935 /* PBXContainerItemProxy */;
 		};
-		4CF82502072CB646C873FCBB695B0689 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GooglePlaces;
-			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 7B9BA3632F6BFFD57813EC6E5E52E676 /* PBXContainerItemProxy */;
-		};
-		97933191489056355F840EE483B9DFF8 /* PBXTargetDependency */ = {
+		AF73495CD36464045AE8A9E8F3DF471B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EasyRent";
 			target = 739E0AF15708013F8ECC2016019B370A /* Pods-EasyRent */;
-			targetProxy = 81AA07709D5F4B91CF238A40EBAFA45C /* PBXContainerItemProxy */;
+			targetProxy = 7DF4D4DDEE20B5F5F907AA6FE5D13698 /* PBXContainerItemProxy */;
+		};
+		E29FE251257EBD1F64C24161141F678F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 94D5080F75DFC2B49A279F988A1655A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0657E6247C7E8744275AACEBAB511440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		24069BB3B6E16DED8CC95987BEACAF82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA7DBA1471968A670B7B63C087685F67 /* GooglePlaces.release.xcconfig */;
+			baseConfigurationReference = A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +592,44 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B66D846B3313F0101D798C0CC74D5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB230F66FD3318DBB8B6885E7B1229C /* Pods-EasyRent-EasyRentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -506,6 +669,81 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5BB2B143F88028D31D6522A3903A7BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB0F01CCD5896DBFCA0B64F53365150 /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CDDB9890F79E283D871EB603999E45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3DECC52BCD24563AD6164D2E933F3C /* Pods-EasyRent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent/Pods-EasyRent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent/Pods-EasyRent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		88AFAED10FD405578012738C4959DD4B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -611,43 +849,6 @@
 			};
 			name = Debug;
 		};
-		9CD94F2FE483C24A5845174801FA8D56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB0F01CCD5896DBFCA0B64F53365150 /* Pods-EasyRent-EasyRentUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -710,7 +911,24 @@
 			};
 			name = Release;
 		};
-		A96629610F5994CD921215086A62F115 /* Debug */ = {
+		C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D325EE8D6C8A0B9EB7F7CD3CDC2E4A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89D1B085B37B3218784FAD66D88455EC /* Pods-EasyRent.debug.xcconfig */;
 			buildSettings = {
@@ -747,9 +965,9 @@
 			};
 			name = Debug;
 		};
-		C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */ = {
+		EC690621027EA58B5D021A1004DD63B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6282CD96902A13B2AE5C54E6E3DAE698 /* GooglePlaces.debug.xcconfig */;
+			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -761,102 +979,27 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CCC5663BB5DC70E215D5802C0CD5920F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BB230F66FD3318DBB8B6885E7B1229C /* Pods-EasyRent-EasyRentUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent-EasyRentUITests/Pods-EasyRent-EasyRentUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E18D8B9E691F7DA92DF16EEFF29F6F82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A3DECC52BCD24563AD6164D2E933F3C /* Pods-EasyRent.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EasyRent/Pods-EasyRent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EasyRent/Pods-EasyRent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0207C784524E88F105206700E7AAE884 /* Build configuration list for PBXNativeTarget "Pods-EasyRent-EasyRentUITests" */ = {
+		11452A832D3413F6AACDEA6A04097B3F /* Build configuration list for PBXNativeTarget "Pods-EasyRent-EasyRentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CD94F2FE483C24A5845174801FA8D56 /* Debug */,
-				CCC5663BB5DC70E215D5802C0CD5920F /* Release */,
+				5BB2B143F88028D31D6522A3903A7BCE /* Debug */,
+				3B66D846B3313F0101D798C0CC74D5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		280EEAC204F69F76C6C8877ED043422F /* Build configuration list for PBXNativeTarget "Pods-EasyRent" */ = {
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A96629610F5994CD921215086A62F115 /* Debug */,
-				E18D8B9E691F7DA92DF16EEFF29F6F82 /* Release */,
+				0657E6247C7E8744275AACEBAB511440 /* Debug */,
+				EC690621027EA58B5D021A1004DD63B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -875,6 +1018,15 @@
 			buildConfigurations = (
 				595FEC9BAF58420BDA9CBABECFE1631C /* Debug */,
 				88AFAED10FD405578012738C4959DD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CFACE368BA69FAFD0C8AC9B971A0F8 /* Build configuration list for PBXNativeTarget "Pods-EasyRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D325EE8D6C8A0B9EB7F7CD3CDC2E4A3E /* Debug */,
+				6CDDB9890F79E283D871EB603999E45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

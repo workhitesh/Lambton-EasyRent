@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39A1376CCB6B5CDD6861533B /* Pods_EasyRent_EasyRentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5397CEB2ACC62A8C08475 /* Pods_EasyRent_EasyRentUITests.framework */; };
 		628F204FDE97BBB6A53DA001 /* Pods_EasyRentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EBBE1A116A83E42AFF0EAF /* Pods_EasyRentTests.framework */; };
+		670BE51B292EB6A900E268ED /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BE51A292EB6A900E268ED /* MapVC.swift */; };
 		6715007629017AD7005014C9 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 6715007529017AD7005014C9 /* SideMenu */; };
 		674BD8892900943700A26502 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD8882900943700A26502 /* ProfileVC.swift */; };
 		674BD88B2900DD3300A26502 /* PaymentInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */; };
@@ -116,6 +117,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670BE51A292EB6A900E268ED /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		674BD8882900943700A26502 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoVC.swift; sourceTree = "<group>"; };
 		675B3AD62909FD640021ADB0 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 				674BD8882900943700A26502 /* ProfileVC.swift */,
 				674BD88A2900DD3300A26502 /* PaymentInfoVC.swift */,
 				67D3E6A5291187F50062D4E7 /* RideSearchVC.swift */,
+				670BE51A292EB6A900E268ED /* MapVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -785,6 +788,7 @@
 				675B3AD72909FD640021ADB0 /* Webservices.swift in Sources */,
 				675B3B022909FDB60021ADB0 /* IQKeyboardManagerConstants.swift in Sources */,
 				67D8F82628F74A940021D0C0 /* Utility.swift in Sources */,
+				670BE51B292EB6A900E268ED /* MapVC.swift in Sources */,
 				675B3AF82909FDB60021ADB0 /* IQTextView.swift in Sources */,
 				675B3B042909FDB60021ADB0 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				675B3AFA2909FDB60021ADB0 /* IQPreviousNextView.swift in Sources */,

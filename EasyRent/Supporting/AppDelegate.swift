@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 import Firebase
 import GooglePlaces
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
         FirebaseApp.configure()
         GMSPlacesClient.provideAPIKey(GOOGLE_API_KEY)
+        GMSServices.provideAPIKey(GOOGLE_API_KEY)
         let locationManager = CLLocationManager()
         locationManager.requestWhenInUseAuthorization()
         let window = UIWindow(frame: UIScreen.main.bounds)
