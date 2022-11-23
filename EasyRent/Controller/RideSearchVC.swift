@@ -101,6 +101,7 @@ class RideSearchVC: UIViewController {
         Navigation.instance.pop(vc: self)
     }
     @IBAction func mapPressed(_ sender: UIButton) {
+        Navigation.instance.push(to: .MapVC, from: self)
     }
     @IBAction func confirmPressed(_ sender: UIButton) {
     }

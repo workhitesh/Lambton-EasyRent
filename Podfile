@@ -7,6 +7,7 @@ target 'EasyRent' do
 
   # Pods for EasyRent
 pod 'GooglePlaces', '7.1.0'
+pod 'GoogleMaps', '7.2.0'
 
   target 'EasyRentTests' do
     inherit! :search_paths

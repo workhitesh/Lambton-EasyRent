@@ -12,7 +12,7 @@ enum UserDefaultKeys:String {
 }
 
 enum Controllers : String {
-    case HomeVC, SideMenuVC, ProfileVC, PaymentInfoVC, RideSearchVC
+    case HomeVC, SideMenuVC, ProfileVC, PaymentInfoVC, RideSearchVC, MapVC
 }
 
 enum Messages : String {
