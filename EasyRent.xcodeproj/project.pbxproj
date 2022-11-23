@@ -1002,7 +1002,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QLTPQPMC3;
+				DEVELOPMENT_TEAM = QKY94XTH76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allowing permission to take photos you can add a profile picture";
@@ -1034,7 +1034,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QLTPQPMC3;
+				DEVELOPMENT_TEAM = QKY94XTH76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyRent/Supporting/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allowing permission to take photos you can add a profile picture";
