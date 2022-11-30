@@ -20,6 +20,8 @@ enum Messages : String {
     case invalidInput = "Please enter valid input"
     case commonError = "Something went wrong.\nPlease try again after some time"
     case success = "Success"
+    case noDestination = "Please choose a destination first."
+    case noPath = "No route found to your destination."
 }
 
 enum ApiEndpoints : String {

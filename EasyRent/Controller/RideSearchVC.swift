@@ -23,6 +23,7 @@ class RideSearchVC: UIViewController {
     fileprivate var selectedCarType:CarType?
     private var placesClient: GMSPlacesClient!
     fileprivate var startPlace:GMSPlace?
+    fileprivate var destPlace:GMSPlace?
 
     //MARK: View life cycles
     override func viewDidLoad() {
@@ -101,7 +102,16 @@ class RideSearchVC: UIViewController {
         Navigation.instance.pop(vc: self)
     }
     @IBAction func mapPressed(_ sender: UIButton) {
-        Navigation.instance.push(to: .MapVC, from: self)
+        guard let startPos = startPlace, let destPos = destPlace else {
+            Utility.showAlert(with: .noDestination, on: self)
+            return
+        }
+        guard let vc = Navigation.instance.grabController(name: .MapVC) as? MapVC else {
+            return
+        }
+        vc.startPosition = startPos
+        vc.destinationPosition = destPos
+        navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func confirmPressed(_ sender: UIButton) {
     }
@@ -136,6 +146,7 @@ extension RideSearchVC: GMSAutocompleteViewControllerDelegate {
         let distance = getDistanceInKM(from: currentLoc, to: destLoc)
         let cleanedDistance = distance.clean
         tfDistance.text = cleanedDistance + " KM"
+        destPlace = place
         dismiss(animated: true, completion: nil)
     }
     
