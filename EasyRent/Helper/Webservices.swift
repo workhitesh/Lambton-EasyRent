@@ -34,7 +34,7 @@ final class Webservices: NSObject {
     // get
     func get(url:String,params:[String:Any]?, completion: @escaping (_ success:Bool ,_ response:AnyObject? , _ error:String?) -> ()) {
         AF.request(url, method: .get, parameters: params, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-            print(response)
+            debugPrint(response)
             switch response.result {
             case .success(let resData as AnyObject):
                 completion(true,resData,nil)
